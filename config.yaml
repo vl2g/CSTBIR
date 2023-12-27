@@ -1,0 +1,25 @@
+model:
+  learning_rate: 1e-5
+  batch_size: 32
+  model_name: 'ViT-B/16'
+  optimizer: 'adam'
+  weight_decay: 1e-4
+  scheduler: 'LR'
+  scheduler_step_size: 10
+  scheduler_gamma: 0.1
+  dropout_rate: 0.5
+
+data:
+  dataset_path: "/path/to/dataset"
+  images_path: "/path/to/images"
+  sketch_embeddings_path: "/path/to/sketch_embeds"
+  train_split_name: 'train'
+  val_split_name: 'val'
+  batch_shuffle: True
+  num_workers: 4
+  pin_memory: True
+
+training:
+  gpu: True
+  save_model_path: "/path/to/save/"
+  epochs: 15
