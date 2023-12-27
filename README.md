@@ -28,7 +28,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Preparing dataset
-- Download VG images from [https://visualgenome.org/](https://visualgenome.org/)
+- Download VG images from [https://homes.cs.washington.edu/~ranjay/visualgenome/index.html](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html)
 
 - Download QuickDraw Sketches from [https://github.com/googlecreativelab/quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset/)
 
