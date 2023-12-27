@@ -2,4 +2,4 @@
 *.pyc
 *.txt
 !requirements.txt
-CLIP
+.DS_Store
